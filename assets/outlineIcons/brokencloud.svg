@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126.182" height="81.708" viewBox="0 0 126.182 81.708">
+  <g id="broken_cloud" data-name="broken cloud" transform="translate(3.5 3.502)">
+    <path id="cloud" d="M85.643,311.459c-23.661,2-25.016,19.612-25.016,25.44A26.106,26.106,0,0,0,86.7,362.978" transform="translate(-60.627 -295.72)" fill="none" stroke="#ffa025" stroke-linecap="round" stroke-width="7"/>
+    <path id="cloud-2" data-name="cloud" d="M254.513,257.455c-13.814-15.657-39.537-12.616-51.481-1.4" transform="translate(-168.439 -246.668)" fill="none" stroke="#ffa025" stroke-linecap="round" stroke-width="7"/>
+    <path id="cloud-3" data-name="cloud" d="M228.636,363.287a36.723,36.723,0,0,0,43.047-4.007,25.79,25.79,0,0,0,9.242,1.708,26.079,26.079,0,1,0,0-52.157h0" transform="translate(-187.823 -293.73)" fill="none" stroke="#ffa025" stroke-linecap="round" stroke-width="7"/>
+  </g>
+</svg>

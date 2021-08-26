@@ -1,0 +1,110 @@
+name: lads_mapbox
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_mapbox_navigation: ^0.0.19
+  flutter_svg: ^0.22.0
+  mapbox_search: ^2.1.0+1
+  http: ^0.13.3
+  location_permissions: ^3.0.0+1
+  geolocator: ^7.0.3
+  geocoder: ^0.2.1
+  weather: ^2.0.1
+  connectivity: ^3.0.4
+  intl: ^0.17.0
+  modal_progress_hud_nsn: ^0.1.0-nullsafety-1
+  marquee: ^2.1.0
+  flutter_phone_direct_caller: ^2.0.0
+  url_launcher: ^6.0.4
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/Icons/search.svg
+     - assets/Icons/location_orange.svg
+     - assets/illustration/splashillustration.svg
+     - assets/bg/splashscreenbg.svg
+     - assets/illustration/homescreenillustrationcard.svg
+     - assets/illustration/splashillustration.svg
+     - assets/Icons/location.svg
+     - assets/Icons/weathergrey.svg
+     - assets/Icons/speedometer.svg
+     - assets/Icons/dotedLine.svg
+     - assets/Icons/toLocation.svg
+     - assets/Icons/backarrow.svg
+     - assets/Icons/cloudandsun.svg
+     - assets/Icons/cloudandlight.svg
+     - assets/Icons/cloudandrain.svg
+     - assets/Icons/direction.svg
+     - assets/Icons/start.svg
+     - assets/Icons/sunandskyorangeblue.svg
+     - assets/Icons/cloudandlight.svg
+     - assets/filledIcons/brokencloud.svg
+     - assets/filledIcons/fewcloud.svg
+     - assets/filledIcons/mist.svg
+     - assets/filledIcons/rain.svg
+     - assets/filledIcons/scattedCloud.svg
+     - assets/filledIcons/showerRain.svg
+     - assets/filledIcons/snow.svg
+     - assets/filledIcons/sun.svg
+     - assets/filledIcons/thunderdTorm.svg
+     - assets/outlineIcons/brokencloud.svg
+     - assets/outlineIcons/clearsky.svg
+     - assets/outlineIcons/fewclouds.svg
+     - assets/outlineIcons/mist.svg
+     - assets/outlineIcons/rain.svg
+     - assets/outlineIcons/scattedcloud.svg
+     - assets/outlineIcons/showerrain.svg
+     - assets/outlineIcons/snow.svg
+     - assets/illustration/popupillustration.svg
+     - assets/call.svg
+
+
+
+
+
+
+
+       # see https://flutter.dev/custom-fonts/#from-packages
